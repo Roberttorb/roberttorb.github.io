@@ -8,6 +8,7 @@
     <meta name="description" content="welcome in techbyHaneef you can learn technology, programming,
     development, coding, software, tools, solutions, education and more.">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/crousel.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -60,7 +61,7 @@
                 <!-- Mandatory Checkbox -->
                 <label>
                     <input type="checkbox" name="consent" required>
-                    I consent to be contacted.
+                    I agree to be contacted.
                 </label>
                 <button type="submit">Register</button>
             </form>
@@ -68,19 +69,197 @@
     </div>
 
     <main>
-        <div class="carousel">
-            <img src="images/image3.jpg" class="slide active" alt="hero section image">
-        </div>
-        <section class="carousel-text">
-            <h1>Welcome In TechByHaneef</h1>
-            <p>Empowering your digital journey with innovative solutions and expert guidance.</p>
-            <!-- <a href="courses.html" class="cta-button">Explore Courses</a>
-            <a href="notes.html" class="cta-button">Download Notes</a> -->
+
+
+        <!-- crousel design  -->
+
+
+        <section class="hero">
+            <div class="hero-grid"></div>
+
+            <div class="hero-glow glow-1"></div>
+            <div class="hero-glow glow-2"></div>
+
+
+            <div class="hero-container">
+
+                <!-- LEFT CONTENT -->
+
+                <div class="hero-content">
+
+                    <p class="hero-intro">
+                        👋 Hi, I'm <strong>Haneef Khan</strong>
+                    </p>
+
+
+                    <h1>
+                        Building Useful
+                        <span>Digital Products.</span>
+                        <br>
+                        Sharing What I Learn.
+                    </h1>
+
+
+                    <p class="hero-description">
+                        I'm a web developer building web applications,
+                        productivity tools, and digital products while sharing
+                        my technology learning journey.
+                    </p>
+
+
+                    <div class="hero-buttons">
+
+                        <a href="./pages/products.html" class="btn btn-primary">
+                            Explore Products
+                            <span>→</span>
+                        </a>
+
+
+                        <a href="./pages/courses.html" class="btn btn-secondary">
+                            ▶ Watch Tutorials
+                        </a>
+
+                    </div>
+
+
+                    <div class="hero-stats">
+
+                        <div class="stat">
+                            <strong>30+</strong>
+                            <span>Videos</span>
+                        </div>
+
+
+                        <div class="stat-divider"></div>
+
+
+                        <div class="stat">
+                            <strong>10k+</strong>
+                            <span>Views</span>
+                        </div>
+
+
+                        <div class="stat-divider"></div>
+
+
+                        <div class="stat">
+                            <strong>500+</strong>
+                            <span>Subscribers</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT SIDE -->
+
+                <div class="hero-visual">
+
+
+                    <!-- CODE WINDOW -->
+                    <a href="https://github.com/TechByHaneef/techbyhaneef.github.io" target="_blank">
+                        <div class="code-window">
+
+                            <div class="window-header">
+
+                                <div class="window-dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                                <p>portfolio.js</p>
+
+                            </div>
+
+
+                            <div class="code-content">
+
+                                <pre><code><span class="purple">const</span> developer = {
+
+  name: <span class="green">"Haneef Khan"</span>,
+
+  role: <span class="green">"Web Developer"</span>,
+
+  building: [
+
+    <span class="green">"Atheriot Travel"</span>,
+
+    <span class="green">"Atheriot Overtime"</span>
+
+  ],
+
+  learning: <span class="green">"Everyday 🚀"</span>,
+
+  <span class="yellow">build</span>() {
+    console.log(<span class="green">"Building useful products 🚀"</span>);
+  }
+
+};
+
+<span class="blue">developer</span>.<span class="yellow">build</span>();</code></pre>
+
+                            </div>     </a>
+              
+                    <!-- FLOATING PROJECT CARD -->
+
+                    <a href="https://atheriottravel.khanmohdhaneef071.workers.dev/">
+                        <div class="project-card card-travel">
+
+                            <div class="project-icon">
+                                <img src="./images/atheriottravel (2).png" alt="Atheriot Travel">
+                            </div>
+
+                            <div>
+                                <strong>Atheriot Travel</strong>
+                                <span>Travel Expense Manager</span>
+                            </div>
+
+                        </div>
+                    </a>
+
+                    <a href="https://atheriotovertime.khanmohdhaneef071.workers.dev/">
+                        <div class="project-card card-overtime">
+
+                            <div class="project-icon">
+                                <img src="./images/atheriotovertime (2).png" alt="Atheriot Overtime">
+                            </div>
+
+                            <div>
+                                <strong>Atheriot OverTime</strong>
+                                <span>Calculate Earnings</span>
+                            </div>
+
+                        </div>
+                    </a>
+
+
+                    <!-- TECHNOLOGY BADGES -->
+
+                    <div class="tech-badge html">
+                        HTML
+                    </div>
+
+                    <div class="tech-badge css">
+                        CSS
+                    </div>
+
+                    <div class="tech-badge js">
+                        JavaScript
+                    </div>
+
+                    <div class="tech-badge node">
+                        Node.js
+                    </div>
+
+
+                </div>
+
+            </div>
+
         </section>
-        <div class="cta-buttons">
-            <a href="pages/courses.html" class="cta-button">Explore Courses</a>
-            <a href="pages/notes.html" class="cta-button">Download Notes</a>
-        </div>
+
         <div class="card-container">
             <!-- Full Stack Developer -->
             <div class="card">

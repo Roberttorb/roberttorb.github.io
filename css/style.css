@@ -241,35 +241,6 @@ main {
 
 
 /* =========================================================
-   CTA BUTTONS
-   ========================================================= */
-
-.cta-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 10px;
-}
-
-.cta-button {
-    display: inline-block;
-    text-decoration: none;
-    padding: 10px 20px;
-    background: #1a324a;
-    color: #fff;
-    border-radius: 5px;
-    transition:
-        background 0.3s ease,
-        transform 0.3s ease;
-}
-
-.cta-button:hover {
-    background: #005bb5;
-    transform: scale(1.05);
-}
-
-
-/* =========================================================
    DOWNLOAD BUTTON
    ========================================================= */
 
@@ -682,29 +653,6 @@ footer {
     }
 }
 
-
-/* =========================================================
-   VERY SMALL SCREENS
-   ========================================================= */
-
-@media (max-width: 340px) {
-
-    .cta-button {
-        display: block;
-        width: 90%;
-        margin: 8px auto;
-        padding: 12px;
-        font-size: 14px;
-        text-align: center;
-    }
-
-    p {
-        font-size: 14px;
-        line-height: 1.4;
-        padding: 0 10px;
-        text-align: center;
-    }
-}
 
 /* ===============================
    PRODUCT CARDS
